@@ -1,0 +1,68 @@
+/* src/styles/MenuPage.css */
+
+.menu-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    font-family: sans-serif;
+  }
+  
+  .menu-page h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #e10027;
+  }
+  
+  .menu-category {
+    margin-bottom: 40px;
+  }
+  
+  .menu-category h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;
+    border-bottom: 2px solid #e10027;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff5f7;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background 0.3s;
+  }
+  
+  .menu-item:hover {
+    background-color: #ffe9ed;
+  }
+  
+  .item-info h3 {
+    margin: 0 0 5px;
+    font-size: 18px;
+    color: #111;
+  }
+  
+  .item-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .item-price {
+    font-weight: bold;
+    color: #e10027;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  
